@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'room-rental-app';
+
+  clickHandler() {
+    alert("im clicked");
+  }
 }
